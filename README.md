@@ -9,8 +9,8 @@ technology — where an order isn't finished when it's signed. It has to become 
 an invoice, an activation key, a subscription, and eventually a seat in a classroom, across
 a dozen services and two generations of database that both have to keep running.
 
-Currently technical lead for a team of ten, designing and building the commercial platform
-behind products used by 100,000+ students.
+Currently technical lead on a platform team, designing and building the commercial platform
+behind the products the business sells to schools.
 
 ---
 
