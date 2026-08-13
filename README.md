@@ -1,28 +1,39 @@
 # Hardyal Singh
 
-**Principal Software Engineer** · Ahmedabad, India · *open to new roles*
+**Principal Software Engineer** · India · *open to new roles — Bengaluru · Pune · Hyderabad · Remote*
 
-I build the systems that turn a school's purchase order into a student's first login.
+I build the systems that turn a signed contract into an invoice, an activation and a live
+subscription — and keep them auditable enough that finance trusts the numbers.
 
-Fifteen years in backend and platform engineering, the last decade of it in education
-technology — where an order isn't finished when it's signed. It has to become a proposal,
-an invoice, an activation key, a subscription, and eventually a seat in a classroom, across
-a dozen services and two generations of database that both have to keep running.
+Fifteen years in backend and platform engineering, most of it on the commercial side: orders,
+pricing, discounting, invoicing, subscriptions, and the identity and access model underneath
+them. An order isn't finished when it's signed. It has to become a proposal, an approved
+price, an invoice, an activation and a working account — across a dozen services and,
+latterly, two generations of database that both had to keep serving.
 
-Currently technical lead on a platform team, designing and building the commercial platform
-behind the products the business sells to schools.
+That handoff is the work I'm known for.
 
 ---
 
-### What I work on
+### What I do
 
 | | |
 |---|---|
-| **Commerce platforms** | SKU catalogues, bundle pricing, rules-engine discounting, invoicing, activation keys, subscriptions |
-| **Migration under load** | Two-way bridges between a fifteen-year-old MySQL estate and new Postgres microservices — no maintenance window |
-| **Platform** | An API gateway fronting 10+ services: JWT auth, validation, rate limiting, Redis caching, structured logging |
+| **Commerce and billing** | Order and subscription data models, SKU catalogues, contract-term and proration derivations written to be finance-auditable, and a discount engine with a four-tier approval ladder running from self-approval to C-suite sign-off |
+| **Migration under load** | Replacing a long-lived legacy estate with no maintenance window: a two-way bridge between legacy and current datastores, a one-time historical backfill kept strictly separate from the continuous reverse-sync, idempotency guards and drift detection |
+| **Architecture** | Domain-decomposed services behind a single gateway, so auth, rate limiting, schema validation and caching get solved once at the edge instead of six times badly |
 | **Access control** | Users → groups → organisations scoping across services, including multi-role users and ownership overrides |
 | **Integrations** | CRM, finance and HR systems behind ports and adapters, so the vendor can be swapped without touching callers |
+
+### How I work
+
+Specification before implementation. Schema before endpoint. Reversible steps over big-bang
+cutovers — every migration I've run could be turned around at any point, because the one
+thing you cannot promise is that nothing will go wrong.
+
+I design the schema before the endpoint, because the schema is what you live with. I write
+the specification the team builds from, then review against it — code review is where the
+standard actually gets set, not the style guide.
 
 ### Things I've built in the open
 
