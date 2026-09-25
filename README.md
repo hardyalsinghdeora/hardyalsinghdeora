@@ -35,6 +35,12 @@ I design the schema before the endpoint, because the schema is what you live wit
 the specification the team builds from, then review against it — code review is where the
 standard actually gets set, not the style guide.
 
+### Written up
+
+**[Moving a live commerce platform between two databases without a maintenance window](https://github.com/hardyalsinghdeora/case-studies/blob/main/migration-live-commerce-platform.md)**
+— a decision record: what we rejected and why, the two-flows separation, the reconciliation
+lesson, and what it cost.
+
 ### Things I've built in the open
 
 **[claude-toolkit](https://github.com/hardyalsinghdeora/claude-toolkit)** — eight dependency-free
