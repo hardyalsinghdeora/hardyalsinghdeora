@@ -1,6 +1,6 @@
 # Hardyal Singh
 
-**Principal Software Engineer** · India · *open to new roles — Bengaluru · Pune · Hyderabad · Remote*
+**Principal Software Engineer** · India · *open to new roles — anywhere in India · Remote*
 
 I build the systems that turn a signed contract into an invoice, an activation and a live
 subscription — and keep them auditable enough that finance trusts the numbers.
