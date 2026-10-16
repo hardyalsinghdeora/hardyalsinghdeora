@@ -64,4 +64,4 @@ Certified SAFe 5 Agilist · Google Project Management · B.Tech, Electronics & C
 
 ### Reach me
 
-[Email](mailto:hardyalsinghdeora@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hardyalsinghdeora)
+[Email](mailto:hardyalsinghdeora@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hardyalsinghdeora) · [Portfolio](https://hardyalsinghdeora.pages.dev/)
