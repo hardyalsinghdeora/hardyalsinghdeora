@@ -43,11 +43,11 @@ lesson, and what it cost.
 
 ### Things I've built in the open
 
-**[claude-toolkit](https://github.com/hardyalsinghdeora/claude-toolkit)** — eight dependency-free
+**[claude-toolkit](https://github.com/hardyalsinghdeora/claude-toolkit)** — ten dependency-free
 CLI tools that make AI-assisted coding sessions safer and cheaper: MCP server toggling with
 restorable config, a macOS Keychain vault built so an agent can *use* a credential without ever
 *seeing* it, database access that keeps passwords out of shell history, output compression, and
-offline code/schema/session indexes.
+offline code/schema/session indexes, a zero-token daily work log, and an offline Jira/Confluence fetcher.
 
 **AI pull request reviewer for Bitbucket** *(in development)* — a Chrome extension that reviews
 PRs against a configurable standard, with a provider abstraction over hosted and local models so
