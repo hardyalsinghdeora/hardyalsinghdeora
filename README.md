@@ -43,6 +43,10 @@ lesson, and what it cost.
 
 ### Things I've built in the open
 
+**[Interview prep kit](https://github.com/hardyalsinghdeora/fde-interview-prep/blob/main/roles/README.md)** — 17 Forward Deployed
+Engineer, Solutions and Applied AI roles compared, with interview loops, study plans and more than
+1,150 answered questions.
+
 **[claude-toolkit](https://github.com/hardyalsinghdeora/claude-toolkit)** — ten dependency-free
 CLI tools that make AI-assisted coding sessions safer and cheaper: MCP server toggling with
 restorable config, a macOS Keychain vault built so an agent can *use* a credential without ever
@@ -56,7 +60,8 @@ a team picks its own trade-off between cost, latency and privacy.
 ### Stack
 
 `TypeScript` `Node.js` `Hono` `Express` `Python` `PHP`
-`PostgreSQL` `MySQL` `Redis` `MongoDB`
+`PostgreSQL` `MySQL` `Redis` `MongoDB` `Elasticsearch` `ClickHouse`
+`RabbitMQ` `Grafana` `Sentry` `OAuth 2.0`
 `Angular` `NgRx` `RxJS` `React` `Tailwind`
 `AWS (S3, CloudFront, SQS, RDS)` `Azure` `Bitbucket Pipelines`
 
