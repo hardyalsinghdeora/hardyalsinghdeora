@@ -66,13 +66,24 @@ restorable config, a macOS Keychain vault built so an agent can *use* a credenti
 *seeing* it, database access that keeps passwords out of shell history, output compression, and
 offline code/schema/session indexes, a zero-token daily work log, and an offline Jira/Confluence fetcher.
 
-**AI pull request reviewer for Bitbucket** *(in development)* — a Chrome extension that reviews
+**[AI pull request reviewer for Bitbucket](https://github.com/hardyalsinghdeora/pr-review-extension)** *(in development)* — a Chrome extension that reviews
 PRs against a configurable standard, with a provider abstraction over hosted and local models so
 a team picks its own trade-off between cost, latency and privacy.
 
+#### Reference builds
+
+Small, tested sample projects for the backend patterns I rely on, each with decision records and CI.
+
+| Project | What it shows |
+|---|---|
+| **[spring-boot-order-service](https://github.com/hardyalsinghdeora/spring-boot-order-service)** | Order-to-cash REST API in Java 21 / Spring Boot 3: idempotency keys, `ETag` + `If-Match` optimistic locking, an explicit state machine, RFC 9457 errors, Flyway |
+| **[api-gateway-rate-limiter](https://github.com/hardyalsinghdeora/api-gateway-rate-limiter)** | TypeScript / Hono gateway: token-bucket and sliding-window rate limiting, circuit breaker, jittered retries for idempotent methods, Prometheus metrics |
+| **[event-outbox-worker](https://github.com/hardyalsinghdeora/event-outbox-worker)** | Transactional outbox with an at-least-once relay, dead-letter handling and an idempotent consumer |
+| **[db-migration-reconciler](https://github.com/hardyalsinghdeora/db-migration-reconciler)** | Python CLI to verify a live database migration: keyset checksums, drill-down diffs and a dry-run-first, resumable repair |
+
 ### Stack
 
-`TypeScript` `Node.js` `Hono` `Express` `Python` `PHP`
+`TypeScript` `Node.js` `Hono` `Express` `Python` `PHP` · learning: `Java` `Spring Boot`
 `PostgreSQL` `MySQL` `Redis` `MongoDB` `Elasticsearch` `ClickHouse`
 `RabbitMQ` `Grafana` `Sentry` `OAuth 2.0`
 `Angular` `NgRx` `RxJS` `React` `Tailwind`
