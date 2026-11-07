@@ -43,6 +43,23 @@ lesson, and what it cost.
 
 ### Things I've built in the open
 
+**Design interview prep, in TypeScript** — three repositories that work through the design rounds
+of backend interviews end to end: requirements, diagrams, trade-offs and tested code.
+- **[low-level-design](https://github.com/hardyalsinghdeora/low-level-design)**: 40 object-oriented
+  design problems, from a parking lot to Splitwise, a stock brokerage and subscription billing, each
+  with class and sequence diagrams and a tested solution (476 tests).
+- **[system-design](https://github.com/hardyalsinghdeora/system-design)**: 32 classic system design
+  problems, 30 concept notes, and 16 runnable building blocks such as rate limiters, an LSM-tree and
+  fencing-token leases.
+- **[design-patterns](https://github.com/hardyalsinghdeora/design-patterns)**: the 23 GoF patterns
+  plus 14 modern backend ones, including circuit breaker, outbox, saga, CQRS and event sourcing, with
+  payments and orders as the examples.
+
+Closest to my day job: [subscription billing](https://github.com/hardyalsinghdeora/low-level-design/blob/main/problems/subscription-billing.md),
+a [double-entry wallet](https://github.com/hardyalsinghdeora/low-level-design/blob/main/problems/digital-wallet.md),
+a [subscription billing platform](https://github.com/hardyalsinghdeora/system-design/blob/main/problems/subscription-billing-platform.md)
+and a [payment system](https://github.com/hardyalsinghdeora/system-design/blob/main/problems/payment-system.md).
+
 **[Interview prep kit](https://github.com/hardyalsinghdeora/fde-interview-prep/blob/main/roles/README.md)** — 17 Forward Deployed
 Engineer, Solutions and Applied AI roles compared, with interview loops, study plans and more than
 1,150 answered questions.
