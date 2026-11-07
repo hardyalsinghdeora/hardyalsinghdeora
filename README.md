@@ -60,10 +60,6 @@ a [double-entry wallet](https://github.com/hardyalsinghdeora/low-level-design/bl
 a [subscription billing platform](https://github.com/hardyalsinghdeora/system-design/blob/main/problems/subscription-billing-platform.md)
 and a [payment system](https://github.com/hardyalsinghdeora/system-design/blob/main/problems/payment-system.md).
 
-**[Interview prep kit](https://github.com/hardyalsinghdeora/fde-interview-prep/blob/main/roles/README.md)** — 17 Forward Deployed
-Engineer, Solutions and Applied AI roles compared, with interview loops, study plans and more than
-1,150 answered questions.
-
 **[claude-toolkit](https://github.com/hardyalsinghdeora/claude-toolkit)** — ten dependency-free
 CLI tools that make AI-assisted coding sessions safer and cheaper: MCP server toggling with
 restorable config, a macOS Keychain vault built so an agent can *use* a credential without ever
