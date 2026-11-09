@@ -10,7 +10,7 @@ duplicate invoice.
 That backend discipline (idempotency, audit trails, rollback plans, cost budgets) is the part
 most agent projects are missing, and it's what I bring to them.
 
-**[Ask my portfolio agent anything about my work →](https://hardyalsinghdeora.pages.dev/)**
+**[Ask my portfolio agent anything about my work →](https://hardyal.is-a.dev/)**
 It answers from my career profile and shows the sources it used.
 
 ---
@@ -98,4 +98,4 @@ Certified SAFe 5 Agilist · Google Project Management · B.Tech, Electronics & C
 
 Notice period 30 days. Email is fastest.
 
-[Email](mailto:hardyalsinghdeora@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hardyalsinghdeora) · [Portfolio](https://hardyalsinghdeora.pages.dev/) · [Résumé](https://hardyalsinghdeora.pages.dev/resume-agentic-ai.html) · [Substack](https://substack.com/@hardyalsingh)
+[Email](mailto:hardyalsinghdeora@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hardyalsinghdeora) · [Portfolio](https://hardyal.is-a.dev/) · [Résumé](https://hardyal.is-a.dev/resume-agentic-ai.html) · [Substack](https://substack.com/@hardyalsingh)
