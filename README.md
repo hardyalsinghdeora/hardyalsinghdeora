@@ -1,6 +1,8 @@
 # Hardyal Singh
 
-**Agentic AI Architect · Principal Software Engineer** · Ahmedabad, India · *open to new roles: remote, hybrid, or on-site in Pune, Bengaluru or Hyderabad*
+**Principal Software Engineer · Commerce & billing platforms · Production AI agents** · Ahmedabad, India
+
+*Open to Staff / Principal Engineer, AI Engineer and Forward Deployed Engineer roles: remote, hybrid, or on-site in Pune, Bengaluru or Hyderabad.*
 
 I build LLM agents that are safe to leave running: grounded in retrieved evidence, bounded in
 steps and cost, least-privilege by default, and auditable. Underneath that is fifteen years of
@@ -21,6 +23,7 @@ It answers from my career profile and shows the sources it used.
 |---|---|
 | **[Portfolio agent with hybrid RAG](https://github.com/hardyalsinghdeora/portfolio)** | A bounded Gemini function-calling loop on Cloudflare Workers. BM25 and embeddings fused by reciprocal rank fusion, cited sources, a prompt-injection guard, provider fallback to Claude, and a retrieval eval set run on every build |
 | **Unattended PR-review agent** *(in daily use at work)* | TypeScript, Node.js and MCP. Reviews every open pull request on a 30-minute cadence, reads the linked ticket first, and posts severity-gated findings with file and line |
+| **Approval-gated ops agent** *(in progress, private)* | Self-hosted, multi-tenant MCP server that turns inbound email into structured actions (CRM leads, quotes). Every side effect goes through an approval gateway with a hash-chained audit log, tenants are isolated by Postgres row-level security, and prices and policy stay in code, never in the prompt |
 | **[AI pull request reviewer](https://github.com/hardyalsinghdeora/pr-review-extension)** *(built, not yet launched)* | Chrome extension with one structured-output review interface over Anthropic Claude, Google Gemini and local Ollama models, so a team picks its own cost, latency and privacy trade-off |
 | **[claude-toolkit](https://github.com/hardyalsinghdeora/claude-toolkit)** | Ten dependency-free CLI tools that keep AI coding agents safe and cheap: a Keychain vault so an agent can *use* a credential without *seeing* it, read-only-by-default database access, output compression, offline indexes |
 | **[Ops Copilot](https://github.com/hardyalsinghdeora/ops-copilot)** *(learning project)* | LangGraph supervisor with specialist agents over two MCP servers, hybrid retrieval, an LLM-as-judge reviewer and human approval before any ticket is filed |
@@ -36,6 +39,8 @@ behind one API gateway.
 |---|---|
 | **Commerce and billing** | Order and subscription data models, finance-auditable contract terms and proration, and a discount engine with a four-tier approval ladder from self-approval to C-suite sign-off |
 | **Migration under load** | A MySQL to PostgreSQL migration across six product lines with no maintenance window: a re-runnable historical backfill kept separate from a continuous reverse-sync, with idempotency guards and drift detection. Partly live, the rest in pilot |
+| **Peak-season load** | Re-architected a peak-season batch job into queue-driven events, holding 99.9% uptime through the academic-year peak |
+| **Legacy modernisation** | Led a strangler migration from a PHP monolith to Node.js services in 3 months with 2 developers |
 | **Architecture** | Domain-decomposed services behind a single gateway, so auth, rate limiting, schema validation and caching are solved once at the edge |
 | **Access control and integrations** | Users → groups → organisations scoping across services; CRM, finance and HR systems behind ports and adapters |
 
